@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#000000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Enrollment Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="#444444"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonSelectSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#333333"
+        android:elevation="6dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Select Subjects"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Enrollment Summary"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#333333"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+</LinearLayout>
